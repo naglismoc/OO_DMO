@@ -79,8 +79,8 @@ adomo_fizika.Title = "Taikomosios fizikos pagrindai"
 adomo_fizika.Grades = [7, 6, 5, 7, 3, 8, 4, 9]
 print(adomo_fizika.avg())
 
-# study = Study("Taikomoji fizika",  [adomo_matieka, adomo_lytu, adomo_fizika])
-study = Study()
+study = Study("Taikomoji fizika",  [adomo_matieka, adomo_lytu, adomo_fizika])
+# study = Study()
 study.Title = "Taikomoji fizika"
 study.Disciplines = [adomo_matieka, adomo_lytu, adomo_fizika]
 
@@ -96,10 +96,10 @@ print(stud.studies.avg())
 
 print(stud)
 
-
-knyga = Book("kakės makės nuotykiai","nezinomas",20,2012)
-print(knyga.Title)
-print(knyga._Title)
-knyga.Title = "kakė 4"
-print(knyga)
-print(knyga.Title)
+#
+# knyga = Book("kakės makės nuotykiai","nezinomas",20,2012)
+# print(knyga.Title)
+# print(knyga._Title)
+# knyga.Title = "kakė 4"
+# print(knyga)
+# print(knyga.Title)

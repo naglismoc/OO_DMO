@@ -1,7 +1,7 @@
 class Study():
     def __init__(self,title = "", disciplines = []):
         self.Title = title
-        self._Disciplines = self.listToDict(disciplines) #su apatiniu brūkšniu, tipo inkapsuliuota :))
+        self.Disciplines = disciplines #su apatiniu brūkšniu, tipo inkapsuliuota :))
 
     @property # sukuriamas propertis, leidzia paimti reiksme
     def Disciplines(self):
